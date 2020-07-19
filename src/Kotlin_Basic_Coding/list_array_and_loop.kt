@@ -109,4 +109,20 @@ fun main(args: Array<String>){
     for((key, value) in map){
         println("Key: $key = Value: $value")
     }
+
+    // print serial letters after 2 letters past, if there is any space it prints "!"
+    for(ch in "abocd"){
+        print(ch + 2)
+    }
+    println()
+
+    // until function
+    for(c in '0' until '9'){
+        print(c + " ")
+    }
+    println()
+
+    println(("Kotlin" in "Java".."Scala"))
+    // It will give an error "Type inference failed"
+//    println(("Kotlin" in setOf("Java".."Scala")))
 }
