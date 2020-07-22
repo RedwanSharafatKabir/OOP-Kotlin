@@ -75,6 +75,7 @@ fun runSpeed(speedTest: String = "cheetah"){
 }
 
 fun isTooHot(temperature: Int) = temperature > 21
+
 fun dirtyEnvironmentTest(dirty: Int = 25): Int{
     val dirty1: Int
     when(dirty){
