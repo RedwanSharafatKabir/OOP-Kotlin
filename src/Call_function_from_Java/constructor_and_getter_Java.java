@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding;
+package Call_function_from_Java;
 
 public class constructor_and_getter_Java {
     String name;
