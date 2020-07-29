@@ -111,7 +111,7 @@ fun main(args: Array<String>){
     }
 
     // print serial letters after 2 letters past, if there is any space it prints "!"
-    for(ch in "abocd"){
+    for(ch in "bbocd"){
         print(ch + 2)
     }
     println()
@@ -124,5 +124,5 @@ fun main(args: Array<String>){
 
     println(("Kotlin" in "Java".."Scala"))
     // It will give an error "Type inference failed"
-//    println(("Kotlin" in setOf("Java".."Scala")))
+    //    println(("Kotlin" in setOf("Java".."Scala")))
 }

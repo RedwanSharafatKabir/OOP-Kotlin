@@ -37,6 +37,7 @@ fun main(args: Array<String>){
     println(str1 as? Int)
     println(str as? Int)
     println(str as Int?)
+    
 }
 
 fun foo(list1: List<Int?>, list2: List<Int>?) {
