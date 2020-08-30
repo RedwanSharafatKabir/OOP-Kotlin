@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Basic_Coding
 
 fun isValidIdentifier(str: String): Boolean {
     fun isValidCharacter(ch: Char) = ch == '_' || ch in '0'..'9' || ch in 'a'..'z'

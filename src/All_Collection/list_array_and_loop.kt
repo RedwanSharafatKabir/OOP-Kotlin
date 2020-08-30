@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Collection
 import java.util.*
 
 fun main(args: Array<String>){

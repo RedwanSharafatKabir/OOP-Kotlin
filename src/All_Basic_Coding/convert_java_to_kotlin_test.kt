@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Basic_Coding
 
 object convert_java_to_kotlin_test {
     @JvmStatic

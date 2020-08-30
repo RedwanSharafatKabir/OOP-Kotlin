@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Exception_Handling
 
 fun String.lastChar() = get(length - 1)
 

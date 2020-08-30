@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Collection
 
 val set1 = hashSetOf(10, 23, 36)
 val list = arrayListOf(5, 18, 31)

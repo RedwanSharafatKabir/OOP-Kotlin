@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Filters_and_Built_In_Functions
 
 fun main(args: Array<String>){
     val decoration = listOf("rock", "pagoda", "plastic-plant", "alligator", "flowerpot")

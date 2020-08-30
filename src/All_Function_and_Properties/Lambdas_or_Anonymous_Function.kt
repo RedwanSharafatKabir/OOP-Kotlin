@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Function_and_Properties
 
 fun main (args: Array<String>){
     var dirtyLevel = 30
@@ -19,4 +19,27 @@ fun main (args: Array<String>){
     val f2: (() -> Int)? = null // (() -> Int)? থাকলে value এর আগে ও পড়ে { } নিষ্প্রয়োজন
     println("$f1\n$f2")
 
+    // call member reference function variable
+    println(predicate)
+    println(predicate2)
+    // pass function reference as argument
+    val testList = listOf(1, 2, 3, 4, 5)
+    println(testList.any(isEven))
+    println(testList.filter(isEven))
+
+    // Pluzzer
+    println(duplicateNonZero(listOf(3, 0, 5)))
+}
+
+// member reference
+fun isEven(i: Int): Boolean = i%2 == 0 // isEven is a non-bound function
+//val predicate = isEven // compiler error
+val predicate =:: isEven
+val predicate2 = {i: Int -> isEven(i) }
+
+fun duplicateNonZero(list: List<Int>): List<Int> {
+    return list.flatMap {
+        if(it == 0) return listOf()
+            listOf(it, it)
+    }
 }

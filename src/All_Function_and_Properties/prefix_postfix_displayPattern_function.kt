@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Function_and_Properties
 
 import java.util.Random
 

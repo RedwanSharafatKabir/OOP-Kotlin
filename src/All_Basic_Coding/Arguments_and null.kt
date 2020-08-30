@@ -1,4 +1,4 @@
-package Kotlin_Basic_Coding
+package All_Basic_Coding
 
 fun main(args: Array<String>){
     val starting = "Bismillahir-Rahmanir-Rahim"
