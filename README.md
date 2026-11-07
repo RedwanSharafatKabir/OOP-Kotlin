@@ -108,8 +108,6 @@ Follow these topics in order. Each one builds on the last.
 | 14 | **Generics** | Type-safe, reusable classes and functions |
 | 15 | **Delegation** | `by` keyword, class and property delegation |
 
-> 💡 This is the suggested order. Check the repository files to see which topics have examples.
-
 ---
 
 ## 🧩 The 4 Pillars of OOP at a Glance
